@@ -1,0 +1,28 @@
+.letters {
+	display: flex;
+	align-items: center;
+	position: relative;
+	margin-right: 30rem;
+}
+
+.letters > svg {
+	position: absolute;
+	width: 10rem;
+	height: 10rem;
+}
+
+.letters > svg:nth-child(2) {
+	margin-left: 10rem;
+}
+
+.letters > svg:nth-child(3) {
+	margin-left: 20rem;
+}
+
+.style-0 {
+	stroke: white;
+	stroke-width: 3;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-dasharray: 0, 37, 129;
+}

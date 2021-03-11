@@ -1,0 +1,24 @@
+.content {
+	height: 100vh;
+	display: flex;
+}
+
+.static-text {
+	display: flex;
+	color: white;
+}
+
+.side-text {
+	font-size: 4rem;
+	padding: 1rem 2rem;
+	margin: 0 2rem;
+	display: flex;
+	flex-direction: column;
+	text-align: right;
+	border-right: 2px solid white;
+}
+
+.main-text {
+	font-size: 10rem;
+	font-weight: bold;
+}

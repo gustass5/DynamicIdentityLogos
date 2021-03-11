@@ -1,0 +1,11 @@
+.content {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+a {
+	text-decoration-line: none;
+	color: inherit;
+}

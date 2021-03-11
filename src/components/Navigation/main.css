@@ -1,0 +1,36 @@
+.navigation {
+	position: absolute;
+	width: 16rem;
+	color: #373737;
+	margin: 1rem;
+	background-color: rgba(6, 6, 6, 0.2);
+	color: #475569;
+	cursor: pointer;
+}
+
+.navigation-headline {
+	text-align: center;
+	padding: 1rem;
+}
+
+.navigation-headline:hover {
+	background-color: rgba(6, 6, 6, 0.3);
+	color: #64748b;
+}
+
+.navigation-item {
+	text-align: center;
+	padding: 1rem;
+}
+
+.navigation-item:hover {
+	background-color: rgba(6, 6, 6, 0.3);
+}
+
+.navigation-item:hover {
+	color: #64748b;
+}
+
+.hidden {
+	display: none;
+}

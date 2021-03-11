@@ -1,0 +1,7 @@
+.letters {
+	display: flex;
+	align-items: center;
+	position: relative;
+	font-size: 16rem;
+	color: white;
+}
