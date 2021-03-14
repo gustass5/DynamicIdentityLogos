@@ -1,3 +1,13 @@
+@font-face {
+	font-family: sideTextFont;
+	src: url(../../assets/Fyfrurom.ttf);
+}
+
+@font-face {
+	font-family: mainTextFont;
+	src: url(../../assets/Fyfrubol.ttf);
+}
+
 .content {
 	height: 100vh;
 	display: flex;
@@ -16,9 +26,11 @@
 	flex-direction: column;
 	text-align: right;
 	border-right: 2px solid white;
+	font-weight: 300;
+	font-family: sideTextFont;
 }
 
 .main-text {
 	font-size: 10rem;
-	font-weight: bold;
+	font-family: mainTextFont;
 }
