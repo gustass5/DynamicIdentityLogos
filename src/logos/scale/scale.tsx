@@ -7,7 +7,7 @@ import anime from 'animejs';
 	styleUrls: ['main.css'],
 	scoped: true
 })
-export class SvgStrokeCycle {
+export class Scale {
 	componentDidLoad() {
 		anime({
 			targets: '.letter-0',
