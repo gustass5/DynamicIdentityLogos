@@ -1,0 +1,16 @@
+.audio-control {
+	display: flex;
+	flex-direction: column;
+}
+
+#music-upload {
+	color: #0c0c0c;
+	outline: none;
+}
+
+#audio-player {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+}

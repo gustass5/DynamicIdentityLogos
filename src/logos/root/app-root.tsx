@@ -6,7 +6,12 @@ import { Routes } from './components/Routes';
 	styleUrls: ['root.css']
 })
 export class AppRoot {
-	private _logos: string[] = ['svg-stroke-colored', 'svg-stroke-vibrant', 'scale'];
+	private _logos: string[] = [
+		'svg-stroke-colored',
+		'svg-stroke-vibrant',
+		'scale',
+		'visualizer'
+	];
 	render() {
 		return (
 			<Host>
