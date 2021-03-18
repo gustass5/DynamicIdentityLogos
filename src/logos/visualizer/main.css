@@ -3,8 +3,12 @@
 	flex-direction: column;
 }
 
+.relative {
+	position: relative;
+}
+
 #music-upload {
-	color: #0c0c0c;
+	color: black;
 	outline: none;
 }
 
@@ -13,4 +17,10 @@
 	bottom: 0;
 	right: 0;
 	width: 100%;
+}
+
+img {
+	position: absolute;
+	top: 240px;
+	left: 115px;
 }

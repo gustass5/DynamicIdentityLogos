@@ -46,7 +46,7 @@ export class Visualizer {
 			requestAnimationFrame(draw);
 
 			analyser.getByteFrequencyData(dataArray);
-			ctx.fillStyle = '#0C0C0C';
+			ctx.fillStyle = 'black';
 			ctx.fillRect(0, 0, WIDTH, HEIGHT);
 			ctx.fillStyle = 'white';
 			turnOffset = turnOffset + 0.002;
@@ -64,9 +64,9 @@ export class Visualizer {
 				ctx.fillRect(x, y, 3, 3);
 			}
 
-			ctx.fillStyle = 'white';
-			ctx.font = '10rem Arial';
-			ctx.fillText('LAB', 105, 360);
+			// ctx.fillStyle = 'white';
+			// ctx.font = '10rem Arial';
+			// ctx.fillText('LAB', 105, 360);
 		}
 
 		this._audioPlayer.play();
@@ -77,7 +77,10 @@ export class Visualizer {
 		return (
 			<Host>
 				<app-layout>
-					<canvas width="500" height="600" id="visualizer"></canvas>
+					<div class="relative">
+						<canvas width="500" height="600" id="visualizer"></canvas>
+						<img src="../../assets/lab.png" alt="what" />
+					</div>
 				</app-layout>
 				<div class="audio-control">
 					<input type="file" id="music-upload" accept="audio/*" />
